@@ -1,0 +1,223 @@
+header{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+
+}
+
+header nav .ContainerNav1 .logo img{
+    width: 60px;
+}
+
+header nav .ContainerNav2 .gambar img{
+    width: 50px;
+    height: 50px;
+}
+
+.ContainerNav1 ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.ContainerNav2 ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav .ContainerNav1{
+    display: flex;
+}
+
+nav .ContainerNav2{
+    display: flex;
+    align-items: center;
+}
+
+.ContainerNav1 ul li,a{
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.ContainerNav2 ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+.ContainerNav1 ul li a:hover,.ContainerNav2 ul li a:hover{
+text-decoration: underline;
+}
+
+.ContainerMain{
+    background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/homepage/2024/herod.jpg");
+    height: 59rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+  
+}
+
+h2
+bold-text {
+font-weight: bold;
+}
+
+.ContainerMain .TEXTINMAIN{
+    margin-left: 100px;
+}
+
+.ContainerMain .TEXTINMAIN h2 .hello{
+    font-size: 100px;
+}
+
+.ContainerMain .TEXTINMAIN h2 .uruse{
+    font-size: 40px;
+}
+
+.ContainerMain1 .TEXTINMAIN1 .text h2 .hello1{
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContainerMain1 .TEXTINMAIN1 .text h2 .HELLO2{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContainerMain1 .TEXTINMAIN1{
+    height: 60rem;
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/families-gallery/2023/revuelto/revuelto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 100px;
+}
+
+.ContainerMain2 .TEXTINMAIN2{
+    height: 60rem;
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/model_choose/2024/08_16/temerario_model_chooser.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.ContainerMain2 .TEXTINMAIN2 .text h2 .HELLO3{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+
+.ContainerMain2 .TEXTINMAIN2 .text  h2  .hello3{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ContainerMain3 .TEXTINMAIN3 {
+    height: 63.1rem;
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/homepage/banner/533702.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left:100px ;
+} 
+
+.ContainerMain3 .TEXTINMAIN3 .text h2 .HELLO4{
+    font-size: 100px;
+}
+
+.ContainerMain4 .TEXTINMAIN4 h2 .HELLO5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+.ContainerMain4 .TEXTINMAIN4 h2 .hello5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.ContainerMain4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60rem;
+    width: 100%;
+    
+}
+
+.ContainerMain4 .TEXTINMAIN4{
+    width: 80%;
+    height: 100%
+    ;
+}
+
+.car{
+    background-image: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2024/11_04_movember/cover_m.jpg);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40rem;     
+}
+
+footer{
+    background-color: #202327;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
